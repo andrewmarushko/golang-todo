@@ -1,8 +1,11 @@
 package handler
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+)
 
 func (h *Handler) createList(c *gin.Context) {
+	id, _ := c.Get(userContext)
 
 }
 
